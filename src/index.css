@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica;
+}
+body {
+  background-color: black;
+  color: white;
+}
+#netflix-logo {
+  fill: #e50914;
+  margin: 10px auto;
+  height: 20%;
+  width: 20%;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.film {
+  padding: 5px 10px;
+  text-align: center;
+}
+button {
+  color:white;
+  border: none;
+  padding:4px;
+  visibility: hidden;
+}
+.Add{
+  background-color:blue;
+}
+.Remove{
+  background-color:red;
+}
+.film:hover > button {
+  visibility: visible;
+}
+li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
