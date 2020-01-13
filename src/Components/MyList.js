@@ -8,10 +8,10 @@ const MyList = props => {
   const { list } = props;
   return (
     <List
-      listTitle="My List"
-      onClick={onClick}
-      list={list}
-      btnContent="Remove"
+      listTitle="My List"     // bind the onclick with list
+      onClick={onClick}       // whenever user clicks the list
+      list={list}             // it will remove it
+      btnContent="Remove"     // movie only has remove button
     />
   );
 };

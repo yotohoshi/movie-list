@@ -12,7 +12,7 @@ const Recommendation = props => {
       listTitle="Recommendation"
       onClick={onClick}
       list={list}
-      btnContent="Add"
+      btnContent="Add"      // for recommendation it has only add button
     />
   );
 };
